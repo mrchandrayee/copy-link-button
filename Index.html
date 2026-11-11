@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Copy Link Button</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<input type="checkbox" id="copy-toggle">
+
+<div class="url-bar">
+  <div class="pulse-ring"></div>
+
+  <span class="url-text">https://youtube.com/@codeharvix</span>
+
+  <label class="copy-btn" for="copy-toggle">
+    <div class="ripple"></div>
+
+    <span class="icon">
+      <!-- copy icon -->
+      <svg class="icon-copy" viewBox="0 0 15 15" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="5" y="5" width="8" height="8" rx="1.5"/>
+        <path d="M10 5V3.5A1.5 1.5 0 0 0 8.5 2H3.5A1.5 1.5 0 0 0 2 3.5V8.5A1.5 1.5 0 0 0 3.5 10H5"/>
+      </svg>
+      <!-- check icon -->
+      <svg class="icon-check" viewBox="0 0 15 15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <polyline points="2.5,7.5 6,11 12.5,4"/>
+      </svg>
+    </span>
+
+    <span class="btn-label">
+      <span class="lbl-copy">Copy</span>
+      <span class="lbl-done">Copied!</span>
+    </span>
+  </label>
+</div>
+
+<div class="toast">✓ Link copied to clipboard</div>
+
+</body>
+</html>
